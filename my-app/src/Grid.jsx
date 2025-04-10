@@ -1,5 +1,5 @@
 import axios from 'axios';
-//import Recipe from './Recipe';
+import Characters from './Characters';
 import { useEffect, useState } from "react";
 
 export default function Grid() {
@@ -14,19 +14,6 @@ export default function Grid() {
           setCharacters(response.results)
         })
       }, [])
-
-    // function handleClick(i) {
-    //     setVeggies((prevVeggies) => {
-
-    //         return prevVeggies.map((veggie, index) => {
-    //             if (index === i) {
-    //                 return { ...veggie, likeCount: veggie.likeCount++ };
-    //             }
-    //             return veggie;
-    //         });
-    //     });
-
-    //}
 
 
 return (
