@@ -1,9 +1,9 @@
 const Footer = () => {
     return (
       <div>
-        <h3>
-        <i>theAlchemistCoder 2025</i>
-        </h3>
+        <p>
+        <i>theAlchemistCoder 2025 api-url: <a href="https://rickandmortyapi.com/api/character">https://rickandmortyapi.com/api/character</a></i>
+        </p>
       </div>
     )
   }

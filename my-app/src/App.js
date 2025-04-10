@@ -11,6 +11,8 @@ function App() {
 
   return (
     <>
+      {/* <div style={{ backgroundColor: '#f0f8ff'}}> */}
+
       <Header />
 
       <Routes>
@@ -19,6 +21,7 @@ function App() {
       </Routes>
 
       <Footer />
+      {/* </div> */}
     </>
   );
 }
