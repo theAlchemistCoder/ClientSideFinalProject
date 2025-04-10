@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home {
+  margin-bottom: 10rem;
+}
+
+.me-auto {
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.board-row {
+ 
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+
+}
+
+.class {
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+}
