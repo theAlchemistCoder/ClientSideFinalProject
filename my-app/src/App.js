@@ -5,7 +5,7 @@ import Header from './Header'
 import Home from './Home'
 import { Link, Routes, Route} from 'react-router-dom'
 import {Button} from 'react-bootstrap'
-import Recipes from './components/Recipes'
+import Characters from './Characters'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/characters" element={<Recipes />} />
+        <Route path="/characters" element={<Characters />} />
       </Routes>
 
       <Footer />

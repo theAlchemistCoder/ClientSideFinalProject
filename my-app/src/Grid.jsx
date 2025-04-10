@@ -11,7 +11,9 @@ export default function Grid() {
         const baseurl = 'https://rickandmortyapi.com/api/character';
     
         axios.get(baseurl).then((response) => {
-          setCharacters(response.results)
+
+          console.log(response.data.results);  
+          setCharacters(response.data.results)
         })
       }, [])
 
@@ -21,7 +23,7 @@ return (
     <div className="container">
         {characters.map((character) => {
             return (
-            <div className="card" key={recipe.id}>
+            <div className="card" key={character.id}>
                 <h2>{character.name}</h2>
                 <p>{character.species}</p>
                 <p>{character.status}</p>
@@ -29,6 +31,7 @@ return (
                 <p>{character.location.name}</p>
                 <p>{character.episode.length}</p>
                 <img src={character.image} alt={character.name}></img>
+                <p> </p>
                 {/* {recipe.ingredients.map((ingredient) => {return <p>{ingredient}</p>})} */}
             </div>
             );

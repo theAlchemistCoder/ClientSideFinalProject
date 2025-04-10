@@ -9,4 +9,4 @@ const Characters = () => {
     )
   }
   
-  export default Recipes
+  export default Characters
