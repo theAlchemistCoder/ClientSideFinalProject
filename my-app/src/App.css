@@ -81,3 +81,12 @@
   justify-content: space-between; 
   margin-bottom: 20px; 
 }
+
+.divider {
+  display: inline-block;
+  width: 1px;
+  height: 40px; 
+  background-color: #000; 
+  margin: 0 10px; 
+  vertical-align: middle;
+}

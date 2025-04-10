@@ -8,10 +8,10 @@ function NavMenu() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand as={Link} to="#home"></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Nav className="me-auto">
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+          <Nav className="mx-auto d-flex flex-row">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            | &nbsp;
+            <span className="divider"></span>
             <Nav.Link as={Link} to="/characters">Characters</Nav.Link>
           </Nav>
       </Container>
