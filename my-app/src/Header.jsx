@@ -7,6 +7,7 @@ import NavMenu from './NavMenu'
 const Header = () => {
   return (
     <div>
+    <h4>Client Side Programming - Final Assignment</h4>
       <NavMenu />
     </div>
     
